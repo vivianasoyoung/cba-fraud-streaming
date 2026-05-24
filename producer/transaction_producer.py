@@ -1,4 +1,5 @@
 """
+
 transaction_producer.py
 -----------------------
 Simulates a real-time banking transaction stream.
@@ -7,6 +8,7 @@ for one account land on the same partition (required for the velocity
 rule to be correct under multiple consumers).
 
 Periodically injects suspicious transactions to exercise the fraud rules.
+
 """
 
 import json
