@@ -49,7 +49,7 @@ services:
       interval: 5s
       retries: 5
 
-producer:
+  producer:
     build:
       context: .
       dockerfile: Dockerfile.producer
